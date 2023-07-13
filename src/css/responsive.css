@@ -1,0 +1,40 @@
+@media (max-width:1000px){
+    body{
+        overflow-x: hidden;
+    }
+    .header_box .logo{
+        max-width: 190px;
+    }
+    .select_box{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .select_box .select_character{
+        margin-top: 37px;
+    }
+    .select_box .select_character .select_title{
+        font-size: 16px;
+    }
+    .select_box .select_list {
+        
+        gap: 9px;
+        
+
+}
+.select_character .character img{
+    width: 80px;
+}
+.select_confirm .character_png{
+    width: 350px;
+    height: 350px;
+}
+.select_confirm .character_info .character_description {
+    width: 80%;
+    font-size: 16px;
+    margin: 20px auto;
+}
+}

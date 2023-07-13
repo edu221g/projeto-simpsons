@@ -1,0 +1,91 @@
+@font-face {
+    font-family:'homer' ;
+    src: url('../fonts/Homer_Simpson_Revised.ttf') format(truetype);
+}
+body {
+    font-family: 'homer', Arial, Helvetica, sans-serif;
+    
+}
+body::before{
+    content: "";
+    background-image: url(../img/bg-desktop-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+.box_header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.select_box{
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh -152px);
+    gap: 30px;
+    justify-content: center;
+}
+.select_box .select_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.select_box .character img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+.select_box .select_character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+.select_box .select_character .title_box{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FBDB32;
+    width: 100%;
+    text-align: center;
+}
+.select_box .character.select {
+    box-shadow: 0px 0px 24px 5px #FBDB32;
+}
+.select_confirm { 
+    text-align: center;
+    max-height: 530px;
+}
+.select_confirm .character_png{
+    width: 430px;
+    height: 340px;
+}
+.select_confirm .character_name{
+    border-bottom: 2px solid #FBDB32;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 12px;
+}
+.select_confirm .character_description {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 5px;
+    width: 420px;
+
+}
+.attribution {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}

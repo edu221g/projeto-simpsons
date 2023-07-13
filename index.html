@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/logo-card.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./src/css/responsive.css" type="text/css">
+    <title>Projeto Simpsons</title>
+</head>
+<body>
+    <header class="box_header">
+        <img class="logo" src="./src/img/logo-card.png" alt="Logo The Simpsons">
+    </header>
+    <main class="select_box" id="select_box">
+        <section class="select_character">
+            <h1 class="title_box">
+                selecione um personagem
+            </h1>
+
+            <ul class="select_list">
+<!--Seletor do Homer Simpson-->
+            <li
+                class="character select" id="homer" data-name="Homer Simpson" data-description=" Homer é o pai desajeitado e muitas vezes preguiçoso da família Simpson. Ele trabalha na Usina Nuclear de Springfield e é conhecido por sua personalidade divertida, mas às vezes burra. Homer é conhecido por sua paixão por cerveja, rosquinhas e pela expressão Doh!.">
+                <img src="./src/img/card-homer.jpg" alt="Homer Simpson">
+            </li>  
+<!--Seletor do Bart Simpson-->
+            <li
+                class="character" id="bart" data-name="Bart Simpson" data-description="Bart é o filho mais velho da família Simpson. Ele é um garoto travesso e adora pregar peças nas pessoas ao redor dele. Bart é conhecido por seu humor sarcástico, suas travessuras e por ser um estudante preguiçoso na Escola Primária de Springfield.">
+                <img src="./src/img/card-bart.jpg" alt="Bart Simpson">
+            </li>
+<!--Seletor da Lisa Simpson-->
+             <li
+                class="character" id="lisa" data-name="Lisa Simpson" data-description="Lisa é a filha do meio da família Simpson e é extremamente inteligente e talentosa. Ela é uma garota prodígio com um amor pela música, toca saxofone e tem uma consciência social aguçada. Lisa é frequentemente retratada como a voz da razão e da moralidade na série.">
+                <img src="./src/img/card-lisa.jpg" alt="Lisa Simpson">
+            </li>
+<!--Seletor da Marge Simpson-->
+            <li 
+                class="character" id="marge" data-name="Marge Simpson" data-description=" Marge é a mãe amorosa e dedicada da família Simpson. Ela tem um penteado icônico com uma grande torre de cabelo azul. Marge é uma dona de casa responsável e muitas vezes tenta manter a paz e a harmonia em sua família. Ela é conhecida por sua voz suave e pela expressão Mmm....">
+                <img src="./src/img/card-marge.jpg" alt="Marge Simpson">
+            </li>
+<!--Seletor do Krusty the Clown--> 
+            <li 
+                class="character" id="krusty" data-name="Krusty the Clown" data-description=" Krusty é um famoso palhaço de TV em Springfield. Ele é o anfitrião do The Krusty the Clown Show, um programa infantil popular. Embora seja amado pelas crianças, Krusty é retratado como um personagem cínico e desiludido nos bastidores.">
+                <img src="./src/img/card-krusty.jpg" alt="Krusty the Clown">
+            </li>   
+ <!--Seletor do Milhouse Van Houten-->
+            <li 
+                class="character" id="milhouse" data-name="Milhouse Van Houten" data-description="Milhouse é o melhor amigo de Bart e é retratado como um garoto nerd e desajeitado. Ele usa óculos espessos e é conhecido por sua ingenuidade. Milhouse muitas vezes se envolve nas travessuras de Bart e é infame por seu amor não correspondido por Lisa Simpson.">
+                <img src="./src/img/card-milhouse.jpg" alt=" Milhouse Van Houten">
+            </li>
+<!--Seletor do Montgomery Burns--> 
+            <li
+                class="character" id="burns" data-name="Montgomery Burns" data-description="Montgomery Burns é o dono da Usina Nuclear de Springfield, onde Homer trabalha. Ele é retratado como um empresário ganancioso e malvado. Burns é conhecido por sua aparência frágil, dedos longos e por ser um vilão impiedoso. Ele é frequentemente acompanhado pelo seu assistente pessoal, Waylon Smithers.">
+                <img src="./src/img/card-burns.jpg" alt="Montgomery Burns">
+            </li>
+<!--Seletor do Nelson Muntz-->
+            <li 
+                class="character" id="nelson" data-name="Nelson Muntz" data-description=" Nelson é um valentão na Escola Primária de Springfield. Ele é conhecido por seu riso característico Ha-ha! e por intimidar outros estudantes. Nelson geralmente tem um comportamento agressivo e tem a reputação de ser o valentão da escola.">
+                <img src="./src/img/card-nelson.jpg" alt="Nelson Muntz">
+            </li> 
+                   
+            </ul>
+        </section>
+        <section class="select_confirm">
+            <img src="./src/img/card-homer.png" alt="Personagem Selecionado" class="character_png">
+            <div class="character_info">
+                <h2 class="character_name" id="character_name">Homer Simpson</h2>
+                <p class="character_description" id="character_description">Homer é o pai desajeitado e muitas vezes preguiçoso da família Simpson. Ele trabalha na Usina Nuclear de Springfield e é conhecido por sua personalidade divertida, mas às vezes burra. Homer é conhecido por sua paixão por cerveja, rosquinhas e pela expressão Doh!.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="attribution">
+        <p> Codded by: <a href="https://github.com/edu221g" target="_blank"> Eduardo Martins</a></p>
+</footer>
+<script src="./src/js/index.js"></script>
+    
+    
+</body>
+</html>
